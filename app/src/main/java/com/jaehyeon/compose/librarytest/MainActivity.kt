@@ -1,6 +1,7 @@
 package com.jaehyeon.compose.librarytest
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -52,6 +53,12 @@ class MainActivity : AppCompatActivity() {
                 if (!this.isRunning)
                     this.start()
             }
+        }
+
+        binding.editTag.apply {
+            this.text.hint = "입력해라."
+            this.text.setHintTextColor(Color.GRAY)
+            this.highlightColor = Color.MAGENTA
         }
     }
 }

@@ -45,6 +45,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'com.github.01067447048:BannerLibrary:0.1.1'
-    implementation 'com.github.01067447048:EditTextHighlitLibrary:0.0.1'
+    implementation 'com.github.01067447048:EditTextHighlitLibrary:0.0.3'
 
 }
